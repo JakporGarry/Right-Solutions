@@ -1,7 +1,18 @@
+// Init AOS
+function aos_init() {
+  AOS.init({
+    duration: 1000,
+    easing: "ease-in-out",
+    loop:true,
+    mirror: false
+  });
+}
+window.onload = aos_init();
+
 //HAMBURGER
 const menuBtn = document.querySelector(".menu-btn");
 let showNavMenu = document.querySelector(".nav-menu");
-let menuClose = document.querySelectorAll(".nav-menu-li");
+let menuClose = document.querySelectorAll(".menuLink");
 
 
 function togglehamburger() {
@@ -12,6 +23,11 @@ menuBtn.addEventListener("click", () => {
   togglehamburger();
 });
 
+menuClose.forEach( 
+  function(menuLink) { 
+    menuLink.addEventListener("click", togglehamburger) 
+  }
+);
 
 //if screen width is bigger than 768px close hamburger
 var viewportWidth;
@@ -37,17 +53,6 @@ window.addEventListener('resize', function () {
 	logWidth();
 }, false);
 
-
-// Init AOS
-function aos_init() {
-  AOS.init({
-    duration: 1000,
-    easing: "ease-in-out",
-    loop:true,
-    mirror: false
-  });
-}
-aos_init();
 
 
 

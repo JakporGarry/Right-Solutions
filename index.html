@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>right-Solutions website</title>
+    <title>Right-Solutions Website</title>
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="fontawesome5/css/all.min.css" />
     <link rel="stylesheet" href="icofont/icofont.min.css" />
-    <link href="js/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/f484441f97.js"></script>
     <link href="js/aos/aos.css" rel="stylesheet" />
   </head>
 
   <body>
+
     <!-- Header -->
-    <header>
+    <header class="header">
       <div class="nav-bar">
         <div class="logo">
           <a href="index.html"><span>LOGO</span></a>
@@ -32,12 +32,13 @@
           <!-- .nav-menu -->
           <div class="nav-menu">
             <ul class="nav-menu-li">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#first-service__one">section1</a></li>
-              <li><a href="#sample-headlines">section2</a></li>
-              <li><a href="#first-service__two">section3</a></li>
-              <li><a href="#connect">Contact</a></li>
-              <li><a href="#first-service__three">section4</a></li>
+              <li class="active"><a class="menuLink" href="#">Home</a></li>
+              <li><a a class="menuLink" href="#first-service__one">About</a></li>
+              <li><a a class="menuLink" href="#sample-headlines">Portfolio</a></li>
+              <li><a a class="menuLink" href="#first-service__two">Services</a></li>
+              <li><a a class="menuLink" href="#connect">Connect</a></li>
+              <li><a a class="menuLink" href="#first-service__three">Services</a></li>
+              <li><a a class="menuLink" href="#footer">Contact</a></li>
             </ul>
           </div>
           <!-- End of .nav-menu -->
@@ -45,14 +46,16 @@
       </div>
     </header>
     <!-- End Header -->
-
+  
+    
     <!-- Hero Section  -->
-    <section>
+    <section class="fh">
       <div class="hero" id="hero">
-        <div class="container "  data-aos="fade-in" data-aos-delay="100">
-          <h1>Get Right Solution for your Business</h1>
-          <a href="" class="btn-get-started">Get Started</a>
-
+        <div class="container"  data-aos="fade-in" data-aos-delay="100">
+          <div>
+            <h1>Get Right Solution for your Business</h1>
+            <a href="" class="btn-get-started">Get Started</a>
+          </div>
           <div class="service "  data-aos="fade-up" data-aos-delay="500">
             <div class="icobox">
               <i class="icofont-people icofont-3x"></i>
@@ -85,7 +88,7 @@
     <!-- End Hero -->
 
     <!-- Service Section ONE-->
-    <section>
+    <section class="container-w">
       <div class="hero first-service__one" id="first-service__one" >
         <div class="boxed floated " data-aos="slide-left" data-aos-delay="100">
           <div class="box-1 ">
@@ -117,7 +120,7 @@
               velit ullam, autem veritatis totam. Commodi quia aspernatur
               incidunt quis?
             </p>
-            <a href="" class="btn-get-started floated">Learn more</a>
+            <a href="" class="btn-get-started floatedd">Learn more</a>
           </div>
 
           <div class="number">01</div>
@@ -127,8 +130,8 @@
     <!-- End of Service Section-->
 
     <!-- SAMPLE SECTION-->
-    <section>
-      <div class="sample-headlines" id="sample-headlines" >
+    <section  class="sample-headlines">
+      <div class="container" id="sample-headlines" >
         <div class="sample__item glass center">
           <div><i class="icofont-people icofont-3x"></i></div>
           <div class="sample__text">
@@ -193,14 +196,15 @@
               assumenda itaque amet ipsum et numquam.
             </p>
           </div>
-        </div>
-      </div>
+      </div>             
+    </div>             
+  </div>
     </section>
 
     <!-- End of Sample Section-->
 
     <!-- Service Section TWO-->
-    <section>
+    <section class="container-w">
       <div class="hero first-service__two" id="first-service__two">
         <div class="boxed service-2" data-aos="slide-right" data-aos-delay="100">
           <div class="box-1 service2">
@@ -238,26 +242,25 @@
             <a href="" class="btn-get-started">Learn more</a>
           </div>
         </div>
-      </div>
     </section>
 
     <!-- connect Section-->
-    <section >
+    <section class="container">
       <div class="connect" id="connect">
-        <div class="connect-ico">
+        <div class="connect-ico ">
           <div class="connect__icons center">
             <ul>
               <li>
-                <a href="https://twitter.com/JakporG"> <i class="fab fa-twitter icon"></i> </a>
+                <a href="https://twitter.com/JakporG"> <i class="fa fa-twitter icon"></i> </a>
               </li>
               <li>
-                <a href=""> <i class="fab fa-instagram icon"></i> </a>
+                <a href=""> <i class="fa fa-instagram icon"></i> </a>
               </li>
               <li>
-                <a href=""> <i class="fab fa-facebook-f icon"></i> </a>
+                <a href="https://www.linkedin.com/in/emumejakpor-oghenegare-738a35152/"> <i class="fa fa-linkedin icon"></i> </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/emumejakpor-oghenegare-738a35152/"> <i class="fab fa-github-alt icon"></i> </a>
+                <a href="https://github.com/JakporGarry"> <i class="fa fa-github-alt icon"></i> </a>
               </li>
             </ul>
           </div>
@@ -283,7 +286,7 @@
     <!-- End of Connect Section-->
 
     <!-- Service Section THREE-->
-    <section>
+    <section class="container-w">
       <div class="hero first-service__three" id="first-service__three">
         <div class="boxed floated" data-aos="slide-left" data-aos-delay="100">
           <div class="box-1 service3">
@@ -315,7 +318,7 @@
               velit ullam, autem veritatis totam. Commodi quia aspernatur
               incidunt quis?
             </p>
-            <a href="" class="btn-get-started floated">Learn more</a>
+            <a href="" class="btn-get-started floatedd">Learn more</a>
           </div>
 
           <div class="number">03</div>
@@ -325,8 +328,8 @@
     <!-- End of Sample Section-->
 
     <!-- Footer Section-->
-      <footer>
-        <div class="footer">
+      <footer id="footer">
+        <div class="footer container">
 
           <div class="contact">
             <div class="contact-form " >
@@ -340,19 +343,19 @@
                 </form>
                 
 
-                <div class="connect__icons" data-aos="fade-in" data-aos-delay="200">
+                <div class="connect__icons" data-aos="fade-in" data-aos-delay="150">
                   <ul>
                     <li>
-                      <a href="https://twitter.com/JakporG"> <i class="fab fa-twitter icon"></i> </a>
+                      <a href="https://twitter.com/JakporG"> <i class="fa fa-twitter icon"></i> </a>
                     </li>
                     <li>
-                      <a href=""> <i class="fab fa-instagram icon"></i> </a>
+                      <a href=""> <i class="fa fa-instagram icon"></i> </a>
                     </li>
                     <li>
-                      <a href=""> <i class="fab fa-facebook-f icon"></i> </a>
+                      <a href="https://www.linkedin.com/in/emumejakpor-oghenegare-738a35152/"> <i class="fa fa-linkedin icon"></i> </a>
                     </li>
                     <li>
-                      <a href="https://www.linkedin.com/in/emumejakpor-oghenegare-738a35152/"> <i class="fab fa-github-alt icon"></i> </a>
+                      <a href="https://github.com/JakporGarry"> <i class="fa fa-github-alt icon"></i> </a>
                     </li>
                   </ul>
                 </div>
@@ -366,25 +369,23 @@
           <h3>we would love to hear from you!</h3>
           <h1>Contact Us</h1>
           <p>
-            right now there is no us, i'm running the show alone, So every
+            Right now there is no us, I'm running the show alone, So every
             feedback you provide, any suggestios you have and any new idea you
             like to share - please don't hesistate write to me immediately
           </p>  
-          <p>i'm reserved, cool and have a passion for any and everything beautiful, coming from an artistic background i love to see beautiful solutions to the illuminating sphere of the human mind</p>          
+          <p>I'm reserved, cool and have a passion for any and everything beautiful, I love to see beautiful ideas come to life</p>          
         </div>
 
       </div>
         <!-- Copyright -->
         <div class="footer-foot">
-          © Right Solutions 2021 . All Rights reserved.</h1>
+          © Right Solutions 2021. All Rights reserved.</h1>
         </div>
       </footer>
     </section>
  <!-- Footer Section-->
  
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-    <script src="js/owl.carousel/owl.carousel.min.js"></script>
     <script src="js/aos/aos.js"></script>
     <script src="js/main.js"></script>
     
